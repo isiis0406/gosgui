@@ -1,0 +1,72 @@
+@mixin bgImage ($url){
+    background-image: $url;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+@mixin flex {
+    display: flex;
+    align-items: center;
+}
+
+$color1: #212a4e;
+$color2: #d9e3ff;
+$font:  'Roboto', sans-serif;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $font;
+    text-decoration: none;
+
+}
+h2{
+    text-align: center;
+    color: $color1;
+    padding: 0 10rem;
+    font-size: 2rem;
+
+
+}
+
+.landingPage{
+    @include bgImage(url('../img/homepage/student-bg.jpg'));
+    @include flex();
+    flex-direction: column;
+
+  
+    div{
+        padding: 1em;
+    }
+    h1{
+        padding-top: 10rem;
+        font-size: 4rem;
+
+
+    }
+    .btn{
+        width: auto;
+        font-size: 1.5em;
+        margin: 0 0.4em;
+        
+    }
+
+};
+
+#formations{
+    background-color: $color2;
+ 
+
+    .content h2{
+        padding-top: 1em;
+    }
+    .content .row a{
+        text-decoration: none;
+        color: #000;
+    }
+    .card{
+        margin: 3em 2em;
+        height: auto;
+        
+    }
+}

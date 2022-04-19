@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  color: #212a4e;
+  padding: 0 10rem;
+  font-size: 2rem;
+}
+
+.landingPage {
+  background-image: url("../img/homepage/student-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.landingPage div {
+  padding: 1em;
+}
+
+.landingPage h1 {
+  padding-top: 10rem;
+  font-size: 4rem;
+}
+
+.landingPage .btn {
+  width: auto;
+  font-size: 1.5em;
+  margin: 0 0.4em;
+}
+
+#formations {
+  background-color: #d9e3ff;
+}
+
+#formations .content h2 {
+  padding-top: 1em;
+}
+
+#formations .content .row a {
+  text-decoration: none;
+  color: #000;
+}
+
+#formations .card {
+  margin: 3em 2em;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */
